@@ -44,5 +44,7 @@ matrix:
       env: RAILS_VERSION="~> 5.0.0.beta1"
     - rvm: 2.1
       env: RAILS_VERSION="~> 5.0.0.beta1"
+    - rvm: jruby-9.0.5.0
+      env: RAILS_VERSION="~> 5.0.0.beta1"
 
 sudo: false
