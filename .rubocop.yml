@@ -22,9 +22,8 @@ BlockNesting:
   Max: 2
 
 # Indentation of when/else
-CaseIndentation:
-  IndentWhenRelativeTo: end
-  IndentOneStep: false
+Style/CaseIndentation:
+  Enabled: true
 
 ClassLength:
   Max: 100
@@ -57,8 +56,8 @@ Encoding:
   Enabled: false
 
 # Align ends correctly
-EndAlignment:
-  AlignWith: variable
+Lint/EndAlignment:
+  EnforcedStyleAlignWith: variable
 
 # Enforce Ruby 1.8-compatible hash syntax
 HashSyntax:
