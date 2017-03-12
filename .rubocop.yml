@@ -120,3 +120,6 @@ TrailingCommaInArguments:
 
 ZeroLengthPredicate:
   Enabled: false
+
+Metrics/BlockLength:
+  Max: 600
