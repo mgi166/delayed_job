@@ -132,3 +132,6 @@ Style/MethodMissing:
 
 Style/SafeNavigation:
   Enabled: false
+
+Security/YAMLLoad:
+  Enabled: false
