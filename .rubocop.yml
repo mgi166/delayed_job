@@ -138,3 +138,6 @@ Security/YAMLLoad:
 
 Style/FrozenStringLiteralComment:
   Enabled: false
+
+Style/NumericPredicate:
+  Enabled: false
