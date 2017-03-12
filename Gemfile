@@ -7,8 +7,8 @@ platforms :ruby do
 end
 
 platforms :jruby do
-  gem 'jruby-openssl'
   gem 'activerecord-jdbcsqlite3-adapter'
+  gem 'jruby-openssl'
   gem 'mime-types', ['~> 2.6', '< 2.99']
 end
 
@@ -18,11 +18,11 @@ end
 
 group :test do
   if ENV['RAILS_VERSION'] == 'edge'
-    gem 'activerecord', :github => 'rails/rails'
     gem 'actionmailer', :github => 'rails/rails'
+    gem 'activerecord', :github => 'rails/rails'
   else
-    gem 'activerecord', (ENV['RAILS_VERSION'] || ['>= 3.0', '< 5.1'])
     gem 'actionmailer', (ENV['RAILS_VERSION'] || ['>= 3.0', '< 5.1'])
+    gem 'activerecord', (ENV['RAILS_VERSION'] || ['>= 3.0', '< 5.1'])
   end
 
   gem 'coveralls', :require => false
