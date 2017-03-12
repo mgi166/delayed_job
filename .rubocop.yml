@@ -126,3 +126,6 @@ Metrics/BlockLength:
 
 Bundler/DuplicatedGem:
   Enabled: false
+
+Style/MethodMissing:
+  Enabled: false
